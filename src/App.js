@@ -1,5 +1,9 @@
-// import logo from './logo.svg';
-// import './App.css';
+import React from 'react';
+import Bienvenue from './components/Bienvenue';
+
+
+import logo from './logo.svg';
+import './App.css';
 
 // function App() {
 //   return (
@@ -26,10 +30,8 @@
 function App() {
   return (
     <div>
-      <h1>Bonjour Abdou !</h1>
-      <p>Ceci est ton tout premier message affiché avec React 🎉</p>
-      <p>C'est Simple non 🎉</p>
-
+      <Bienvenue />
+      
     </div>
   );
 }
